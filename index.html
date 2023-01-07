@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a href="#" data-modal="open" class="link-modal">Open Modal</a>
+  <section class="container" data-modal="container">
+    <div class="modal">
+      <button class="close" data-modal="close">X</button>
+      <form action="">
+        <label for="login">Login</label>
+        <input type="text" id="login" name="login">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <button type="submit" class="submit-button">Sign in</button>
+      </form>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
